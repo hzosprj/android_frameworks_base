@@ -324,5 +324,8 @@ public class SystemSettingsValidators {
     	VALIDATORS.put(System.THREE_FINGER_GESTURE, BOOLEAN_VALIDATOR);
 	    VALIDATORS.put(System.VOLBTN_MUSIC_CONTROLS, BOOLEAN_VALIDATOR);
 	    VALIDATORS.put(System.TORCH_POWER_BUTTON_GESTURE, BOOLEAN_VALIDATOR);
+        VALIDATORS.put(System.INCREASING_RING, BOOLEAN_VALIDATOR);
+        VALIDATORS.put(System.INCREASING_RING_START_VOLUME, new InclusiveFloatRangeValidator(0, 1));
+        VALIDATORS.put(System.INCREASING_RING_RAMP_UP_TIME, new InclusiveFloatRangeValidator(5, 60));
     }
 }
