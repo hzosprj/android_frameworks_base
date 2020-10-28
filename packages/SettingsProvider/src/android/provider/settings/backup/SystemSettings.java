@@ -126,7 +126,8 @@ public class SystemSettings {
                 Settings.System.NOTIFICATION_COOLDOWN_VIBRATE_UNLOCKED,
                 Settings.System.PREFERRED_REGION,
                 Settings.System.CV_ENABLED,
-		        Settings.System.THREE_FINGER_GESTURE
+                Settings.System.THREE_FINGER_GESTURE,
+                Settings.System.VOLBTN_MUSIC_CONTROLS
         ));
         if (Flags.backUpSmoothDisplayAndForcePeakRefreshRate()) {
             settings.add(Settings.System.PEAK_REFRESH_RATE);
