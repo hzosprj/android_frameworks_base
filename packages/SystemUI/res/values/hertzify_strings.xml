@@ -8,6 +8,10 @@
     <!-- Label for area where tiles can be added to the qs panel -->
     <string name="drag_or_tap_to_add_tiles">Hold &amp; drag or tap to add tiles</string>
     
+    <!-- Screen record -->
+    <string name="screenrecord_lowquality_label">Lower quality</string>
+    <string name="screenrecord_lowquality_summary">For smaller file size</string>
+
     <!-- Custom QS tiles -->
     <!-- AOD QS tile -->
     <string name="quick_settings_aod_label">AOD</string>
