@@ -50,6 +50,7 @@ import com.android.internal.graphics.ColorUtils;
 import com.android.settingslib.Utils;
 import com.android.systemui.keyguard.KeyguardSliceProvider;
 import com.android.systemui.res.R;
+import com.android.systemui.keyguard.KeyguardSliceProvider;
 import com.android.systemui.util.wakelock.KeepAwakeAnimationListener;
 
 import java.io.PrintWriter;
