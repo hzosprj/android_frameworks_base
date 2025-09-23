@@ -31,7 +31,7 @@ import android.net.Uri;
 import android.os.Process;
 import android.os.UserHandle;
 
-import com.android.internal.util.neoteric.NeotericUtils;
+import com.android.internal.util.hertzify.HertzifyUtils;
 
 import com.android.systemui.dagger.qualifiers.Background;
 import com.android.systemui.res.R;
@@ -65,7 +65,7 @@ public class LensScreenshotReceiver extends BroadcastReceiver {
     }
 
     public static boolean isGSAEnabled(Context context) {
-        return NeotericUtils.isPackageInstalled(context, GSA_PACKAGE, false /* ignoreState */);
+        return HertzifyUtils.isPackageInstalled(context, GSA_PACKAGE, false /* ignoreState */);
     }
 
     @Override
