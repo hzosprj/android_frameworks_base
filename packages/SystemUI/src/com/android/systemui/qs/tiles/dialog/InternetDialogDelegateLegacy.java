@@ -482,13 +482,6 @@ public class InternetDialogDelegateLegacy implements
                         dialog.getContext(), mDefaultDataSubId, isChecked, false);
             }
         });
-        mMobileNetworkLayout.setOnLongClickListener(v -> {
-            if (!mInternetDialogController.isDeviceLocked()) {
-                mInternetDialogController.launchMobileNetworkSettings(v, mDefaultDataSubId);
-                return true;
-            }
-            return false;
-        });
         mConnectedWifListLayout.setOnClickListener(this::onClickConnectedWifi);
         mSeeAllLayout.setOnClickListener(this::onClickSeeMoreButton);
         mWiFiToggle.setOnClickListener(v -> {
