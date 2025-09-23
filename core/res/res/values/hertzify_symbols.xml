@@ -14,10 +14,6 @@
     <java-symbol type="string" name="url_copy_success" />
     <java-symbol type="string" name="url_copy_failed" />
 
-    <!-- Udfps fingerprint animation -->
-    <dimen name="udfps_animation_size">180dp</dimen>
-    <dimen name="udfps_animation_offset">0dp</dimen>
-
     <!-- Health interface -->
     <java-symbol type="bool" name="config_chargingControlEnabled" />
     <java-symbol type="bool" name="config_chargingControlToggleSetAlways" />
